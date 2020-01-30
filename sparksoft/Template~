@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+ 		<link href="css/General.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+ 
+  <body>
+  		
+	<nav class="navbar navbar-inverse">
+	
+  <div class="container-fluid">
+  <div class="row" id="Menu">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header row-xs-12 col-sm-6 col-md-8">
+		<img class="logo" alt="Brand" src="https://cdn.awsli.com.br/21/21351/arquivos/breaking-bad-logo-672271a2edf82fb2816897c69d3ff93e.png" class="media-object">
+    </div>
+   
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse col-xs-6 col-md-4" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"> <h3>Acceuil </h3><span class="sr-only">(current)</span></a></li>
+        <li><a href="#"> <h3>Personnage </h3></a></li>
+        <li><a href="#"> <h3>Acheter</h3> </a></li>
+        <li><a href="#"> <h3>Better Call Saul</h3> </a></li>
+      </ul>
+     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </div>
+  
+  
+</nav>
+		<div id="home" class="toutbloc"> 
+		<div class="container">
+  <div class="row center-text">
+  </img src="bbad1.jpg" alt="image">
+	<h1 class="text-center colorText1"><strong>BREAKING BAD</strong></h1>
+	<p class="text-center colorText1"><strong>Breaking Bad ou Breaking Bad : Le Chimiste1 au Québec est une série télévisée américaine en 62 épisodes de 47 minutes, créée par Vince Gilligan, diffusée simultanément du 20 janvier 2008 au 29 septembre 2013 sur AMC aux États-Unis et au Canada, et ensuite sur Netflix.
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper rhoncus metus sed egestas. Proin vulputate posuere nibh, non efficitur elit consequat a. Nunc mattis arcu turpis, dignissim fermentum purus varius non. Nulla condimentum elit sit amet mauris placerat luctus. Sed dui leo, venenatis vel nunc non, suscipit faucibus elit. Vivamus porta eleifend magna vel maximus. In imperdiet lectus a ex volutpat, eget volutpat ligula porttitor. Suspendisse a vulputate arcu. Sed a quam volutpat, posuere augue vel, viverra tortor. Sed rhoncus id lectus quis tempus. Nulla dolor augue, sollicitudin sed luctus at, dictum vitae felis. Suspendisse tincidunt tortor nec eros lobortis, sit amet varius mauris feugiat. Donec congue sit amet enim et cursus. Etiam nisl dolor, commodo non sodales non, finibus sit amet dui. Morbi dui lacus, sagittis ut diam ac, condimentum consequat tellus.
+
+Nunc vitae felis lacinia, pellentesque mauris non, finibus felis. Nunc risus ex, molestie nec nisl vel, placerat maximus risus. Morbi volutpat est libero, at commodo odio pulvinar et. Cras ultricies erat eget felis suscipit fermentum. Curabitur pretium libero iaculis porta semper. Sed id lorem nulla. Quisque vel lorem sit amet mauris sodales maximus. Donec nec finibus mi. Aenean in volutpat nisl, nec feugiat ligula. Proin non porta quam. Sed id nunc sed eros aliquet iaculis. </strong></p>
+	</div>
+	</div>
+</div>
+
+<div id="perso"> 
+<div class="container-fluid">
+<div class="row ajuster-bloc">
+<h1 class="text-center titrebloc">Personnages principaux</h1>
+ </br>
+  <div class="col-md-4">
+ 	<img src="walterw.jpg" alt="walter" class="img-circle center-block"> 
+  <h3 class="text-center">Walter White</h3>
+  
+  <p class="text-center textperso">Walter Hartwell « Walt » White est le personnage principal de la série Breaking Bad créée par Vince Gilligan. Il est interprété par Bryan Cranston et doublé en version française par Jean-Louis Faure.</p>
+  </div>
+  
+  <div class="col-md-4">
+        <img src="pinkman.jpg" alt="pinkman" class="img-circle center-block">
+        <h3 class="text-center">Jessie PinkMan</h3>
+		  <p class="text-center textperso">Jesse Bruce Pinkman est un personnage fictif de la série télévisée américaine Breaking Bad, diffusée sur AMC. Le personnage, interprété par Aaron Paul, a été créé par Vince Gilligan, le créateur de la série. </p>
+  </div>
+  <div class="col-md-4">
+	<img src="skyler.jpg" alt="skyler" class="img-circle center-block">
+	<h3 class="text-center">Skyler White</h3>
+	<p class="text-center textperso"> C'est la femme de Walter White, impliqué tardivement dans son buisness de métamphétamine. Elle est connu pour etre le personnage le plus détestable de la série</p>
+  </div>
+  
+	
+</div>
+</div>
+</div>
+
+<div id="acheter" class="toutbloc">
+	<div class="container-fluid">
+		<div class="row ajuster-bloc">
+			<div class="col-md-6">
+			<img src="buy.png" alt="buy" class="center-block" id="imagefigurine">
+			</div>
+		  		<div class="col-md-6">
+		  		<h1 class="text-center">Goodies</h1>
+		  		<h3 class="text-center"> Mug, posters, figurines, DVD ...
+		 		LIvrer chez vous directement !</h3>
+		 		<button type="button" class="btn btn-default navbar-btn center-block">En Savoir plus</button>
+		  		</div>
+
+
+</div>
+</div>
+</div>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="<!--https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js-->"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="general.js"></script>
+  </body>
+</html>
